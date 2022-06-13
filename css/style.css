@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,16 +7,98 @@
     width: 100%;
 }
 h2{
-    font-size: 2.1rem;
-    font-weight: 800;
+    font-size: 2rem;
+    margin: 4% 2% 2% 2%;
+    font-weight: 600;
 }
 p{
     font-size: 1.3rem;
 }
+
+/* Features section */
+.features-div{
+    margin-bottom: 2%;
+}
+.card{
+    margin-top: 2%;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(151, 151, 151, 0.25);
+    border-radius: 8px;
+}
+.card-img-top{
+    padding: 2%;
+    width: 35%;
+}
+.card-icon{
+    /* font-size: 0.8rem; */
+    width: 3rem;
+    height: 3rem;
+}
+
 .console-cover{
     filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.25));
-border-radius: 15px;
+    border-radius: 10px;
+    width: 80%;
+    height: 65vh;
 }
-.inner-flex{
-    padding-left: 4%;
+.inner-flex div{
+    width: 50%;
+    padding-bottom: 1%;
+}
+.shorter-div{
+    padding-right:1%;
+    font-size: 3rem;
+font-stretch: expanded;    font-weight: bolder;
+}
+.outer-flex{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    margin-top: 1%;
+    height: 70vh;
+    justify-content: center;
+    border-radius: 10px;
+}
+.download-btn{
+    width:  50%;
+}
+.left{
+    width: 30%;
+    background-color: #6C63FF;
+    color: #ffffff ;
+    padding: 0.6%;
+    margin: 1% 0 2% 0 ;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.stats{
+    margin-top: 2%;
+    height: 20vh;
+    background: rgba(186, 66, 242, 0.038);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.right{
+    float: right;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0;
+    width: 45%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.text-yellow{
+    color: yellow;
+}
+
+/* Reviews */
+.card-title{
+    font-weight: bold;
+}
+.carousel-item .card{
+    border: 1px solid #E5E7EB;
+box-shadow: 0px 4px 4px rgba(151, 151, 151, 0.25);
+border-radius: 8px;
 }

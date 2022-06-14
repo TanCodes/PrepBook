@@ -102,3 +102,70 @@ font-stretch: expanded;    font-weight: bolder;
 box-shadow: 0px 4px 4px rgba(151, 151, 151, 0.25);
 border-radius: 8px;
 }
+.carousel-control-next, .carousel-control-prev{
+    color: #000000;
+}
+
+.slg{
+    margin: 1%;
+    padding: 2%;
+}
+h3{
+    text-align: center;
+color: #4E44EC;
+font-style: normal;
+font-weight: 800;
+font-size: 1.2rem;
+}
+/* footer */
+.footer{
+    width: 90%;
+    margin: 2%;
+}
+.footer h4{
+    font-weight: 550;
+    font-size: large;
+}.footer-1,.footer-2, .footer-3{
+    width: 30%;
+}
+
+.footer-1 p{
+    font-weight: 500;
+}
+.footer-2{
+    text-align: center;
+}
+.footer-2 a {
+    text-decoration: none;
+}
+.footer-2 h3{
+    color: #000000;
+    font-weight: 400;
+}
+.footer-3 img{
+    width: 60%;
+}
+.footer-3 h3{
+    text-align: left;
+    color: rgba(108, 99, 255, 0.95);
+}
+
+.bottom{
+    background-color: rgba(108, 99, 255, 0.94)
+    ;
+    text-align: center;
+    color: #ffffff;
+    padding:1%;
+}
+.bottom a{
+    color: #ffffff;
+}
+
+
+/* privacy policy */
+.privacy-policy h3{
+    color: #000000;
+    text-align: left;
+    font-weight: 600;
+
+}
